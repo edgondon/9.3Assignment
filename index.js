@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
     
-    $(document).on('click', 'button', function (event) {
+    $("form").on('click', 'button', function (event) {
       event.preventDefault();
       let task = document.getElementById('shopping-list-entry').value;
       document.forms['js-shopping-list-form'].reset();
@@ -33,3 +33,5 @@ $(document).ready(function () {
   
   
   })
+    
+    
